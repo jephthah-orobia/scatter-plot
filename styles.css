@@ -50,11 +50,12 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background: transparent;
+  background: linear-gradient(45deg, var(--c1b), var(--c2b), var(--c3b));
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--c1f);
+  z-index: 3000;
 }
 
 #spinner {

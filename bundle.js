@@ -88,14 +88,6 @@ const drawScatterPlot = (ev) => {
                 .attr("y", -padding.top * 5)
                 .attr("transform", "rotate(-90)");
 
-            d3.select("div.container")
-                .append("p")
-                .text("For more info, visit: ")
-                .append("a")
-                .attr("href", 'http://www.bea.gov/national/pdf/nipaguid.pdf')
-                .attr("target", '_blank')
-                .text('http://www.bea.gov/national/pdf/nipaguid.pdf');
-
             document.querySelector("#please-wait").remove();
         });
 };
